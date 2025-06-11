@@ -9,8 +9,9 @@ A curated collection of research papers, code implementations, datasets, and mod
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Recent Papers (2024)](#recent-papers-2024)
+- [Recent Papers (2025)](#recent-papers-2025)
 - [Papers by Year](#papers-by-year)
+  - [2024](#2024)
   - [2023](#2023)
   - [2022](#2022)
   - [2021](#2021)
@@ -34,31 +35,40 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 - **Conversational Time Series Analysis**: Interactive systems for time series exploration
 - **Time Series Summarization**: Automatic generation of textual summaries from temporal data
 
-## 📈 Recent Papers (2024)
+## 📈 Recent Papers (2025)
 
 ### Conference Papers
 
-| Paper                                                        | Venue        | Code                                              | Dataset                                                      | Model                                              |
-| ------------------------------------------------------------ | ------------ | ------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- |
-| **ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data** | AAAI2025     | [GitHub](https://github.com/ForestsKing/ChatTime) | [ChatTime Dataset](https://github.com/ForestsKing/ChatTime/tree/main/dataset) | -                                                  |
-| **TimeQA: A Large-Scale Dataset for Time Series Question Answering** | AAAI 2024    | [GitHub](https://github.com/example/timeqa)       | [TimeQA Dataset](https://huggingface.co/datasets/timeqa)     | [HuggingFace](https://huggingface.co/timeqa-base)  |
-| **Temporal Reasoning with Large Language Models for Time Series Analysis** | ICML 2024    | [GitHub](https://github.com/example/temporal-llm) | -                                                            | [HuggingFace](https://huggingface.co/temporal-llm) |
-| **MultiModal Time Series Question Answering with Vision Transformers** | NeurIPS 2024 | [GitHub](https://github.com/example/mmtsqa)       | [MMTS Dataset](https://example.com/mmts)                     | -                                                  |
-| **Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis** | NeurIPS 2024 | [GitHub](https://github.com/AdityaLab/Time-MMD/)  | [MM-TSFlib](https://github.com/AdityaLab/MM-TSFlib)          | -                                                  |
+### 2025
+
+| Paper                                                        | Venue    | Code                                              | Dataset                                                      | Model |
+| ------------------------------------------------------------ | -------- | ------------------------------------------------- | ------------------------------------------------------------ | ----- |
+| **ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data** | AAAI2025 | [GitHub](https://github.com/ForestsKing/ChatTime) | [ChatTime Dataset](https://github.com/ForestsKing/ChatTime/tree/main/dataset) | -     |
+
+### Preprints
+
+| Paper | ArXiv | Code | Dataset | Model |
+| ----- | ----- | ---- | ------- | ----- |
+|       |       |      |         |       |
+
+## 📚 Papers by Year
+
+### Conference Papers
+
+### 2024
+
+| Paper                                                        | Venue        | Code                                              | Dataset                                                  | Model                                              |
+| ------------------------------------------------------------ | ------------ | ------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------- |
+| **TimeQA: A Large-Scale Dataset for Time Series Question Answering** | AAAI 2024    | [GitHub](https://github.com/example/timeqa)       | [TimeQA Dataset](https://huggingface.co/datasets/timeqa) | [HuggingFace](https://huggingface.co/timeqa-base)  |
+| **Temporal Reasoning with Large Language Models for Time Series Analysis** | ICML 2024    | [GitHub](https://github.com/example/temporal-llm) | -                                                        | [HuggingFace](https://huggingface.co/temporal-llm) |
+| **MultiModal Time Series Question Answering with Vision Transformers** | NeurIPS 2024 | [GitHub](https://github.com/example/mmtsqa)       | [MMTS Dataset](https://example.com/mmts)                 | -                                                  |
+| **Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis** | NeurIPS 2024 | [GitHub](https://github.com/AdityaLab/Time-MMD/)  | [MM-TSFlib](https://github.com/AdityaLab/MM-TSFlib)      | -                                                  |
 
 ### Journal Papers
 
 | Paper                                                        | Journal        | Code                                         | Dataset                               | Model                              |
 | ------------------------------------------------------------ | -------------- | -------------------------------------------- | ------------------------------------- | ---------------------------------- |
 | **Natural Language Interfaces for Financial Time Series Analysis** | IEEE TKDE 2024 | [GitHub](https://github.com/example/fintsqa) | [FinTS-QA](https://example.com/fints) | [Model](https://example.com/model) |
-
-### Preprints
-
-| Paper                                                        | ArXiv                                                | Code                                                | Dataset | Model |
-| ------------------------------------------------------------ | ---------------------------------------------------- | --------------------------------------------------- | ------- | ----- |
-| **Zero-Shot Time Series Question Answering with Foundation Models** | [arXiv:2024.xxxxx](https://arxiv.org/abs/2024.xxxxx) | [GitHub](https://github.com/example/zero-shot-tsqa) | -       | -     |
-
-## 📚 Papers by Year
 
 ### 2023
 
@@ -256,4 +266,4 @@ We thank all the researchers and practitioners who have contributed to the field
 
 **Star ⭐ this repository if you find it helpful!**
 
-*Last updated: December 2024*
+*Last updated: June 2025*
