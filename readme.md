@@ -37,9 +37,9 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ## 📈 Recent Papers (2025)
 
-### Conference Papers
-
 ### 2025
+
+### Conference Papers
 
 | Paper                                                        | Venue    | Code                                              | Dataset                                                      | Model |
 | ------------------------------------------------------------ | -------- | ------------------------------------------------- | ------------------------------------------------------------ | ----- |
@@ -50,6 +50,7 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 | Paper                                                        | Journal       | Code                                                 | Dataset | Model |
 | ------------------------------------------------------------ | ------------- | ---------------------------------------------------- | ------- | ----- |
 | **LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters** | ACM TIST 2025 | [Github](https://github.com/blacksnail789521/LLM4TS) | -       | -     |
+| **Pleno-Alignment Framework for Stock Trend Prediction**     | TNNLS 2025    | -                                                    | -       | -     |
 
 ### Preprints
 
@@ -57,6 +58,7 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 | ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------ | ----- |
 | **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | [arxiv:202503.16858](https://arxiv.org/pdf/2503.16858) | [Github](https://arxiv.org/pdf/2503.16858)              | [MTBench Dateset](https://github.com/Graph-and-Geometric-Learning/MTBench/tree/mainline/data_preparation) | -     |
 | **SensorQA: A Question Answering Benchmark for Daily-Life Monitoring** | [arxiv:202501.04974](https://arxiv.org/pdf/2501.04974) | [Github](https://github.com/benjamin-reichman/SensorQA) | [SensorQA Dataset](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) | -     |
+| **Enhancing LLMs for Time Series Forecasting via Structure-Guided Cross-Modal Alignment** | [arxiv:202505.13175](https://arxiv.org/pdf/2505.13175) | -                                                       | -                                                            | -     |
 
 ## 📚 Papers by Year
 
@@ -196,17 +198,17 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ### Tutorials
 
-| Title                                         | Venue         | Year | Materials                                         |
-| --------------------------------------------- | ------------- | ---- | ------------------------------------------------- |
-| Building Time Series QA Systems               | AAAI Tutorial | 2024 | [Slides](https://example.com/tutorial-slides)     |
-| Deep Learning for Temporal Question Answering | ICML Tutorial | 2023 | [Notebook](https://example.com/tutorial-notebook) |
+| Title                                             | Venue         | Year | Materials                                         |
+| ------------------------------------------------- | ------------- | ---- | ------------------------------------------------- |
+| **Building Time Series QA Systems**               | AAAI Tutorial | 2024 | [Slides](https://example.com/tutorial-slides)     |
+| **Deep Learning for Temporal Question Answering** | ICML Tutorial | 2023 | [Notebook](https://example.com/tutorial-notebook) |
 
 ### Blog Posts & Articles
 
-| Title                                               | Author           | Date    | Link                                 |
-| --------------------------------------------------- | ---------------- | ------- | ------------------------------------ |
-| Getting Started with Time Series Question Answering | AI Research Blog | 2024-01 | [Blog](https://example.com/blog)     |
-| The Future of Conversational Time Series Analysis   | Tech Medium      | 2023-12 | [Medium](https://example.com/medium) |
+| Title                                                   | Author           | Date    | Link                                 |
+| ------------------------------------------------------- | ---------------- | ------- | ------------------------------------ |
+| **Getting Started with Time Series Question Answering** | AI Research Blog | 2024-01 | [Blog](https://example.com/blog)     |
+| **The Future of Conversational Time Series Analysis**   | Tech Medium      | 2023-12 | [Medium](https://example.com/medium) |
 
 ## 🎯 Research Directions
 
