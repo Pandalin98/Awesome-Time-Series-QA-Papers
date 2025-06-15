@@ -54,11 +54,12 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ### Preprints
 
-| Paper                                                        | ArXiv                                                  | Code                                                    | Dataset                                                      | Model |
-| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------ | ----- |
-| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | [arxiv:202503.16858](https://arxiv.org/pdf/2503.16858) | [Github](https://arxiv.org/pdf/2503.16858)              | [MTBench Dateset](https://github.com/Graph-and-Geometric-Learning/MTBench/tree/mainline/data_preparation) | -     |
-| **SensorQA: A Question Answering Benchmark for Daily-Life Monitoring** | [arxiv:202501.04974](https://arxiv.org/pdf/2501.04974) | [Github](https://github.com/benjamin-reichman/SensorQA) | [SensorQA Dataset](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) | -     |
-| **Enhancing LLMs for Time Series Forecasting via Structure-Guided Cross-Modal Alignment** | [arxiv:202505.13175](https://arxiv.org/pdf/2505.13175) | -                                                       | -                                                            | -     |
+| Paper                                                        | ArXiv                                                  | Code                                                    | Dataset                                                      | Model                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------- |
+| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | [arxiv:202503.16858](https://arxiv.org/pdf/2503.16858) | [Github](https://arxiv.org/pdf/2503.16858)              | [MTBench Dateset](https://github.com/Graph-and-Geometric-Learning/MTBench/tree/mainline/data_preparation) | -                                              |
+| **SensorQA: A Question Answering Benchmark for Daily-Life Monitoring** | [arxiv:202501.04974](https://arxiv.org/pdf/2501.04974) | [Github](https://github.com/benjamin-reichman/SensorQA) | [SensorQA Dataset](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) | -                                              |
+| **Enhancing LLMs for Time Series Forecasting via Structure-Guided Cross-Modal Alignment** | [arxiv:202505.13175](https://arxiv.org/pdf/2505.13175) | -                                                       | -                                                            | -                                              |
+| **Time-MQA: Time Series Multi-Task Question Answering with** | [arxiv:202503.01875](https://arxiv.org/pdf/2503.01875) | [Hugging Face](https://huggingface.co/Time-QA)          | [Hugging Face](https://huggingface.co/Time-QA)               | [Hugging Face](https://huggingface.co/Time-QA) |
 
 ## 📚 Papers by Year
 
@@ -66,102 +67,87 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ### Conference Papers
 
-| Paper                                                        | Venue        | Code                                              | Dataset                                                  | Model                                              |
-| ------------------------------------------------------------ | ------------ | ------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------- |
-| **TimeQA: A Large-Scale Dataset for Time Series Question Answering** | AAAI 2024    | [GitHub](https://github.com/example/timeqa)       | [TimeQA Dataset](https://huggingface.co/datasets/timeqa) | [HuggingFace](https://huggingface.co/timeqa-base)  |
-| **Temporal Reasoning with Large Language Models for Time Series Analysis** | ICML 2024    | [GitHub](https://github.com/example/temporal-llm) | -                                                        | [HuggingFace](https://huggingface.co/temporal-llm) |
-| **MultiModal Time Series Question Answering with Vision Transformers** | NeurIPS 2024 | [GitHub](https://github.com/example/mmtsqa)       | [MMTS Dataset](https://example.com/mmts)                 | -                                                  |
-| **Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis** | NeurIPS 2024 | [GitHub](https://github.com/AdityaLab/Time-MMD/)  | [MM-TSFlib](https://github.com/AdityaLab/MM-TSFlib)      | -                                                  |
+| Paper                                                        | Venue        | Code                                             | Dataset                                             | Model |
+| ------------------------------------------------------------ | ------------ | ------------------------------------------------ | --------------------------------------------------- | ----- |
+| **Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis** | NeurIPS 2024 | [GitHub](https://github.com/AdityaLab/Time-MMD/) | [MM-TSFlib](https://github.com/AdityaLab/MM-TSFlib) | -     |
+| **Time-LLM: Time Series Forecasting by Reprogramming Large Language Models** | ICLR 2024    | [Github](https://github.com/KimMeen/Time-LLM)    | -                                                   | -     |
 
 ### Journal Papers
 
-| Paper                                                        | Journal        | Code                                         | Dataset                               | Model                              |
-| ------------------------------------------------------------ | -------------- | -------------------------------------------- | ------------------------------------- | ---------------------------------- |
-| **Natural Language Interfaces for Financial Time Series Analysis** | IEEE TKDE 2024 | [GitHub](https://github.com/example/fintsqa) | [FinTS-QA](https://example.com/fints) | [Model](https://example.com/model) |
+| Paper                                                        | Journal           | Code | Dataset | Model |
+| ------------------------------------------------------------ | ----------------- | ---- | ------- | ----- |
+| **PromptCast: A New Prompt-Based Learning  Paradigm for Time Series Forecasting** | IEEE TKDE 2024    | -    | -       | -     |
+| **Towards explainable traffic flow prediction with large language models** | COMMUN TRANSP RES | -    | -       | -     |
 
 ### 2023
 
 #### Conference Papers
 
-| Paper                                                        | Venue      | Code                                               | Dataset                                      | Model                                   |
-| ------------------------------------------------------------ | ---------- | -------------------------------------------------- | -------------------------------------------- | --------------------------------------- |
-| **Learning to Answer Questions about Time Series Data**      | ICLR 2023  | [GitHub](https://github.com/example/tsqa-learning) | [TSQA-Bench](https://example.com/tsqa-bench) | -                                       |
-| **Conversational Time Series Analysis with Large Language Models** | EMNLP 2023 | [GitHub](https://github.com/example/conv-ts)       | -                                            | [ChatTS](https://huggingface.co/chatts) |
+| Paper                                                        | Venue        | Code                                                         | Dataset | Model |
+| ------------------------------------------------------------ | ------------ | ------------------------------------------------------------ | ------- | ----- |
+| **One Fits All: Power General Time Series Analysis by Pretrained LM** | NeurIPS 2023 | [GitHub](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All) | -       | -     |
 
 #### Journal Papers
 
-| Paper                                          | Journal        | Code | Dataset | Model |
-| ---------------------------------------------- | -------------- | ---- | ------- | ----- |
-| **A Survey on Time Series Question Answering** | AI Survey 2023 | -    | -       | -     |
+| Paper                                                        | Journal               | Code | Dataset | Model |
+| ------------------------------------------------------------ | --------------------- | ---- | ------- | ----- |
+| **A deeplearning approach using natural language processing and time-series forecasting towards enhanced food safety** | Machine Learning 2023 | -    | -       | -     |
 
 ### 2022
 
 #### Conference Papers
 
-| Paper                                           | Venue     | Code                                              | Dataset                                  | Model                                        |
-| ----------------------------------------------- | --------- | ------------------------------------------------- | ---------------------------------------- | -------------------------------------------- |
-| **Time Series Reasoning with Natural Language** | ACL 2022  | [GitHub](https://github.com/example/ts-reasoning) | [TSReason](https://example.com/tsreason) | -                                            |
-| **Neural Time Series Question Answering**       | ICLR 2022 | [GitHub](https://github.com/example/neural-tsqa)  | -                                        | [NeuralTSQA](https://example.com/neuraltsqa) |
+| Paper | Venue | Code | Dataset | Model |
+| ----- | ----- | ---- | ------- | ----- |
+| -     | -     | -    | -       | -     |
 
-### 2021
-
-#### Conference Papers
-
-| Paper                                                        | Venue       | Code                                         | Dataset                              | Model |
-| ------------------------------------------------------------ | ----------- | -------------------------------------------- | ------------------------------------ | ----- |
-| **Towards Natural Language Interfaces for Time Series Databases** | SIGMOD 2021 | [GitHub](https://github.com/example/nl-tsdb) | [TSText](https://example.com/tstext) | -     |
+### 
 
 ## 📊 Datasets
 
 ### Public Datasets
 
-| Dataset          | Description                              | Size           | Domain      | Paper                                                      | Download                                                     |
-| ---------------- | ---------------------------------------- | -------------- | ----------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **TimeQA**       | Large-scale time series QA dataset       | 100K Q&A pairs | General     | [Paper](https://example.com/paper)                         | [HuggingFace](https://huggingface.co/datasets/timeqa)        |
-| **FinTS-QA**     | Financial time series question answering | 50K Q&A pairs  | Finance     | [Paper](https://example.com/paper)                         | [GitHub](https://github.com/example/fints-qa)                |
-| **HealthTS-QA**  | Medical time series QA dataset           | 25K Q&A pairs  | Healthcare  | [Paper](https://example.com/paper)                         | [Download](https://example.com/healthts)                     |
-| **WeatherQA**    | Weather data question answering          | 75K Q&A pairs  | Meteorology | [Paper](https://example.com/paper)                         | [Download](https://example.com/weatherqa)                    |
-| **Chat-Time QA** | General time series QA dataset           | 48K Q&A pairs  | General     | [Paper](https://huggingface.co/datasets/ChengsenWang/TSQA) | [HuggingFace](https://huggingface.co/datasets/ChengsenWang/TSQA) |
+| Dataset          | Description                                         | Size           | Domain  | Paper                                                      | Download                                                     |
+| ---------------- | --------------------------------------------------- | -------------- | ------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
+| **Chat-Time QA** | General time series QA dataset                      | 48K Q&A pairs  | General | [Paper](https://huggingface.co/datasets/ChengsenWang/TSQA) | [HuggingFace](https://huggingface.co/datasets/ChengsenWang/TSQA) |
+| **SensorQA**     | Wearable device TS - Text question and answer pairs | 5.6K Q&A pairs | Sensor  | [Paper](https://arxiv.org/pdf/2501.04974)                  | [SensorQA Dataset](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) |
 
 ### Synthetic Datasets
 
-| Dataset           | Description                   | Generator                                       | Paper                              | Download                              |
-| ----------------- | ----------------------------- | ----------------------------------------------- | ---------------------------------- | ------------------------------------- |
-| **SyntheticTSQA** | Synthetic time series QA data | [GitHub](https://github.com/example/synth-tsqa) | [Paper](https://example.com/paper) | [Download](https://example.com/synth) |
+| Dataset | Description | Generator | Paper | Download |
+| ------- | ----------- | --------- | ----- | -------- |
+| -       | -           | -         | -     | -        |
 
 ## 💻 Code Implementations
 
 ### Official Implementations
 
-| Method                 | Paper                         | Code                                                    | Framework   | License    |
-| ---------------------- | ----------------------------- | ------------------------------------------------------- | ----------- | ---------- |
-| **TimeQA-Transformer** | TimeQA: A Large-Scale Dataset | [GitHub](https://github.com/example/timeqa-transformer) | PyTorch     | MIT        |
-| **TemporalLLM**        | Temporal Reasoning with LLMs  | [GitHub](https://github.com/example/temporal-llm)       | HuggingFace | Apache 2.0 |
-| **NeuralTSQA**         | Neural Time Series QA         | [GitHub](https://github.com/example/neural-tsqa)        | TensorFlow  | BSD-3      |
+| Method                                                       | Paper                                                  | Code                                                    | Framework | License      |
+| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | --------- | ------------ |
+| **ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data** | [arxiv:2412.11376](https://arxiv.org/pdf/2412.11376)   | [GitHub](https://github.com/ForestsKing/ChatTime)       | Pytorch   | -            |
+| **LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters** | [arxiv:2308.08469](https://arxiv.org/pdf/2308.08469)   | [Github](https://github.com/blacksnail789521/LLM4TS)    | Pytorch   | MIT          |
+| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | [arxiv:202503.16858](https://arxiv.org/pdf/2503.16858) | [Github](https://arxiv.org/pdf/2503.16858)              | Pytorch   | MIT          |
+| **SensorQA: A Question Answering Benchmark for Daily-Life Monitoring** | [arxiv:202501.04974](https://arxiv.org/pdf/2501.04974) | [Github](https://github.com/benjamin-reichman/SensorQA) | Pytorch   | CC BY-SA 4.0 |
 
 ### Third-party Implementations
 
-| Method        | Original Paper   | Implementation                                      | Framework | License |
-| ------------- | ---------------- | --------------------------------------------------- | --------- | ------- |
-| **TSQA-BERT** | Time Series BERT | [GitHub](https://github.com/example/tsqa-bert-impl) | PyTorch   | MIT     |
+| Method | Original Paper | Implementation | Framework | License |
+| ------ | -------------- | -------------- | --------- | ------- |
+| -      | -              | -              | -         | -       |
 
 ### Benchmarking Tools
 
-| Tool          | Description                      | Code                                           | License    |
-| ------------- | -------------------------------- | ---------------------------------------------- | ---------- |
-| **TSQA-Eval** | Evaluation framework for TSQA    | [GitHub](https://github.com/example/tsqa-eval) | MIT        |
-| **TSBench**   | Comprehensive benchmarking suite | [GitHub](https://github.com/example/tsbench)   | Apache 2.0 |
+| Tool                                                         | Description                      | Code                                             | License |
+| ------------------------------------------------------------ | -------------------------------- | ------------------------------------------------ | ------- |
+| **Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis** | Comprehensive benchmarking suite | [GitHub](https://github.com/AdityaLab/Time-MMD/) | MIT     |
 
 ## 🤖 Pre-trained Models
 
 ### Language Models
 
-| Model              | Size | Domain     | Training Data  | HuggingFace                                                  | Paper                                                      |
-| ------------------ | ---- | ---------- | -------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| **TimeGPT**        | 7B   | General    | Mixed TS+Text  | [HuggingFace](https://huggingface.co/timegpt)                | [Paper](https://example.com/paper)                         |
-| **FinanceTS-BERT** | 110M | Finance    | Financial data | [HuggingFace](https://huggingface.co/finance-ts-bert)        | [Paper](https://example.com/paper)                         |
-| **MedicalTS-T5**   | 220M | Healthcare | Medical TS     | [HuggingFace](https://huggingface.co/medical-ts-t5)          | [Paper](https://example.com/paper)                         |
-| **Chat-Time-1-7B** | 7B   | General    | Mixed TS+Text  | [HuggingFace](https://huggingface.co/ChengsenWang/ChatTime-1-7B-Chat) | [Paper](https://huggingface.co/datasets/ChengsenWang/TSQA) |
+| Model              | Size | Domain  | Training Data | HuggingFace                                                  | Paper                                                      |
+| ------------------ | ---- | ------- | ------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| **Chat-Time-1-7B** | 7B   | General | Mixed TS+Text | [HuggingFace](https://huggingface.co/ChengsenWang/ChatTime-1-7B-Chat) | [Paper](https://huggingface.co/datasets/ChengsenWang/TSQA) |
 
 ### Multimodal Models
 
@@ -173,11 +159,9 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ### Standard Benchmarks
 
-| Benchmark      | Metrics                   | Datasets   | Leaderboard                                             | Paper                                     |
-| -------------- | ------------------------- | ---------- | ------------------------------------------------------- | ----------------------------------------- |
-| **TSQA-Bench** | BLEU, ROUGE, Accuracy     | 5 datasets | [Leaderboard](https://example.com/leaderboard)          | [Paper](https://example.com/paper)        |
-| **TemporalQA** | F1, EM, Temporal Accuracy | 3 datasets | [Leaderboard](https://example.com/temporal-leaderboard) | [Paper](https://example.com/paper)        |
-| **Time-MMD**   | MSE                       | 9 datasets | -                                                       | [Paper](https://arxiv.org/abs/2406.08627) |
+| Benchmark    | Metrics | Datasets   | Leaderboard | Paper                                     |
+| ------------ | ------- | ---------- | ----------- | ----------------------------------------- |
+| **Time-MMD** | MSE     | 9 datasets | -           | [Paper](https://arxiv.org/abs/2406.08627) |
 
 ### Domain-specific Benchmarks
 
@@ -190,11 +174,9 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ### Surveys
 
-| Title                                                        | Venue                 | Year | Link                                      |
-| ------------------------------------------------------------ | --------------------- | ---- | ----------------------------------------- |
-| **How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook ** | arxiv                 | 2025 | [Paper](https://arxiv.org/abs/2503.11835) |
-| **A Comprehensive Survey on Time Series Question Answering** | AI Survey             | 2024 | [Paper](https://example.com/survey)       |
-| **Natural Language Interfaces for Time Series: A Survey**    | ACM Computing Surveys | 2023 | [Paper](https://example.com/nl-survey)    |
+| Title                                                        | Venue | Year | Link                                      |
+| ------------------------------------------------------------ | ----- | ---- | ----------------------------------------- |
+| **How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook ** | arxiv | 2025 | [Paper](https://arxiv.org/abs/2503.11835) |
 
 ### Tutorials
 
@@ -279,4 +261,4 @@ We thank all the researchers and practitioners who have contributed to the field
 
 **Star ⭐ this repository if you find it helpful!**
 
-*Last updated: December 2024*
+*Last updated: June 2025
