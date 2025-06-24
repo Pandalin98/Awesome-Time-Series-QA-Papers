@@ -12,14 +12,11 @@ A curated collection of research papers, code implementations, datasets, and mod
 - [Recent Papers (2025)](#recent-papers-2025)
 - [Papers by Year](#papers-by-year)
   - [2024](#2024)
-  - [2023](#2023)
-  - [2022](#2022)
-  - [2021](#2021)
 - [Datasets](#datasets)
 - [Code Implementations](#code-implementations)
 - [Pre-trained Models](#pre-trained-models)
 - [Benchmarks](#benchmarks)
-- [Tutorials & Surveys](#tutorials--surveys)
+- [Surveys](#tutorials--surveys)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -41,28 +38,22 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ### Conference Papers
 
-| Paper                                                        | Venue    | Code                                              | Dataset                                                      | Model                                                       |
-| ------------------------------------------------------------ | -------- | ------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
-| **ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data** | AAAI2025 | [GitHub](https://github.com/ForestsKing/ChatTime) | [ChatTime Dataset](https://github.com/ForestsKing/ChatTime/tree/main/dataset) | -                                                           |
-| **CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning** | AAAI2025 | [GitHub](https://github.com/Hank0626/CALF)        | [CALF Dataset1](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)  [CALF_Datase2](https://drive.google.com/drive/folders/15zio96o3NK4XOoR5L88oaWcJDVOiqQo9) | [Github](https://github.com/Hank0626/CALF/tree/main/models) |
-
-### Journal Papers
-
-| Paper                                                        | Journal       | Code                                                 | Dataset | Model |
-| ------------------------------------------------------------ | ------------- | ---------------------------------------------------- | ------- | ----- |
-| **LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters** | ACM TIST 2025 | [Github](https://github.com/blacksnail789521/LLM4TS) | -       | -     |
-| **Pleno-Alignment Framework for Stock Trend Prediction**     | TNNLS 2025    | -                                                    | -       | -     |
+| Paper                                                        | Venue                                                   | Code                                                  | Dataset                                                      | Model |
+| ------------------------------------------------------------ | ------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ | ----- |
+| **ITFormer: Bridging Time Series and Natural Language for Multi-Modal QA with Large-Scale Multitask Dataset** | [ICML 2025](https://openreview.net/forum?id=GByP03IitA) | [Github](https://pandalin98.github.io/itformer_site/) | [EngineMT-QA Dataset](https://pandalin98.github.io/itformer_site/) | -     |
+| **ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data** | [AAAI 2025](https://arxiv.org/pdf/2412.11376)           | [GitHub](https://github.com/ForestsKing/ChatTime)     | [ChatTime Dataset](https://github.com/ForestsKing/ChatTime/tree/main/dataset) | -     |
 
 ### Preprints
 
-| Paper                                                        | ArXiv                                                  | Code                                                    | Dataset                                                      | Model                                                        |
-| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | [arxiv:202503.16858](https://arxiv.org/pdf/2503.16858) | [Github](https://arxiv.org/pdf/2503.16858)              | [MTBench Dateset](https://github.com/Graph-and-Geometric-Learning/MTBench/tree/mainline/data_preparation) | -                                                            |
-| **SensorQA: A Question Answering Benchmark for Daily-Life Monitoring** | [arxiv:202501.04974](https://arxiv.org/pdf/2501.04974) | [Github](https://github.com/benjamin-reichman/SensorQA) | [SensorQA Dataset](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) | -                                                            |
-| **Enhancing LLMs for Time Series Forecasting via Structure-Guided Cross-Modal Alignment** | [arxiv:202505.13175](https://arxiv.org/pdf/2505.13175) | -                                                       | -                                                            | -                                                            |
-| **Time-MQA: Time Series Multi-Task Question Answering with** | [arxiv:202503.01875](https://arxiv.org/pdf/2503.01875) | [Hugging Face](https://huggingface.co/Time-QA)          | [Hugging Face](https://huggingface.co/Time-QA)               | [Hugging Face](https://huggingface.co/Time-QA)               |
-| **ChronoSteer: Bridging Large Language Model and Time Series Foundation Model via Synthetic Data** | [arXiv:202505.10083](https://arxiv.org/pdf/2505.10083) | -                                                       | -                                                            | -                                                            |
-| **TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment** | [arXiv:202406.01638](https://arxiv.org/pdf/2406.01638) | [Github](https://github.com/ChenxiLiu-HNU/TimeCMA)      | [TimeCMA](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) | [Github](https://github.com/ChenxiLiu-HNU/TimeCMA/tree/main/models) |
+| Paper                                                        | ArXiv                                                  | Code                                                    | Dataset                                                      | Model                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------- |
+| **Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement** | [arxiv:202503.01875](https://arxiv.org/pdf/2503.01875) | [Hugging Face](https://huggingface.co/Time-QA)          | [Hugging Face](https://huggingface.co/Time-QA)               | [Hugging Face](https://huggingface.co/Time-QA) |
+| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | [arxiv:202503.16858](https://arxiv.org/pdf/2503.16858) | [Github](https://arxiv.org/pdf/2503.16858)              | [MTBench Dateset](https://github.com/Graph-and-Geometric-Learning/MTBench/tree/mainline/data_preparation) | -                                              |
+| **SensorQA: A Question Answering Benchmark for Daily-Life Monitoring** | [arxiv:202501.04974](https://arxiv.org/pdf/2501.04974) | [Github](https://github.com/benjamin-reichman/SensorQA) | [SensorQA Dataset](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) | -                                              |
+| **SensorChat: Answering Qualitative and Quantitative Questions during Long-Term Multimodal Sensor Interactions** | [arxiv:202502.02883](https://arxiv.org/pdf/2502.02883) | [Github](https://github.com/benjamin-reichman/SensorQA) | [SensorChat Dataset](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) | -                                              |
+| **Heartcare Suite: Multi-dimensional Understanding of ECGwith RawMulti-lead Signal Modeling** | [arxiv:202506.05831](https://arxiv.org/pdf/2506.05831) | [Github](https://arxiv.org/pdf/2506.05831)              | [Heartcare-220K](https://arxiv.org/pdf/2506.05831)           | -                                              |
+| **Chat-TS: Enhancing Multi-Modal Reasoning Over Time-Series and Natural Language Data** | [arxiv:202503.10883](https://arxiv.org/pdf/2503.10883) | -                                                       | -                                                            | -                                              |
+| **ChronoSteer: Bridging Large Language Model and Time Series Foundation Model via Synthetic Data** | [arXiv:202505.10083](https://arxiv.org/pdf/2505.10083) | -                                                       | -                                                            | -                                              |
 
 ## 📚 Papers by Year
 
@@ -70,75 +61,66 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ### Conference Papers
 
-| Paper                                                        | Venue        | Code                                             | Dataset                                             | Model                                                        |
-| ------------------------------------------------------------ | ------------ | ------------------------------------------------ | --------------------------------------------------- | ------------------------------------------------------------ |
-| **Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis** | NeurIPS 2024 | [GitHub](https://github.com/AdityaLab/Time-MMD/) | [MM-TSFlib](https://github.com/AdityaLab/MM-TSFlib) | -                                                            |
-| **Time-LLM: Time Series Forecasting by Reprogramming Large Language Models** | ICLR 2024    | [Github](https://github.com/KimMeen/Time-LLM)    | -                                                   | -                                                            |
-| **TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series** | ICLR 2024    | [Github](https://github.com/scxsunchenxi/test)   | [TEST Data](https://github.com/scxsunchenxi/test)   | [Github](https://github.com/SCXsunchenxi/TEST/tree/main/models) |
+| Paper                                                        | Venue                                                        | Code                                                       | Dataset                                                      | Model |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------ | ----- |
+| **Language Models Still Struggle to Zero-shot Reason about Time Series** | [ACL 2024](https://aclanthology.org/2024.findings-emnlp.201.pdf) | [Github](https://github.com/behavioral-data/TSandLanguage) | [TSandLanguage Data](https://github.com/behavioral-data/TSandLanguage/tree/main/data) | -     |
+| **Demo: A Real Time Question Answering System for Multimodal Sensors using LLMs** | [SENSYS 2024](https://dl.acm.org/doi/proceedings/10.1145/3666025) | -                                                          | -                                                            | -     |
 
-### Journal Papers
+### Preprints
 
-| Paper                                                        | Journal           | Code | Dataset | Model |
-| ------------------------------------------------------------ | ----------------- | ---- | ------- | ----- |
-| **PromptCast: A New Prompt-Based Learning  Paradigm for Time Series Forecasting** | IEEE TKDE 2024    | -    | -       | -     |
-| **Towards explainable traffic flow prediction with large language models** | COMMUN TRANSP RES | -    | -       | -     |
-
-### 2023
-
-#### Conference Papers
-
-| Paper                                                        | Venue        | Code                                                         | Dataset | Model |
-| ------------------------------------------------------------ | ------------ | ------------------------------------------------------------ | ------- | ----- |
-| **One Fits All: Power General Time Series Analysis by Pretrained LM** | NeurIPS 2023 | [GitHub](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All) | -       | -     |
-
-#### Journal Papers
-
-| Paper                                                        | Journal               | Code | Dataset | Model |
-| ------------------------------------------------------------ | --------------------- | ---- | ------- | ----- |
-| **A deeplearning approach using natural language processing and time-series forecasting towards enhanced food safety** | Machine Learning 2023 | -    | -       | -     |
-
-### 
+| Paper                                                | ArXiv                                                | Code                                                         | Dataset                                                      | Model |
+| ---------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
+| **Interpretable LLM-based Table Question Answering** | [arXiv:2412.12386](https://arxiv.org/abs/2412.12386) | [Github](https://github.com/giangnguyen2412/Plan-of-SQLs-TMLR2025) | [TMLR Dataset](https://github.com/giangnguyen2412/Plan-of-SQLs-TMLR2025/blob/main/data.zip) | -     |
+| **Can LLMs Serve As Time Series Anomaly Detectors?** | [arXiv:2408.03475](https://arxiv.org/abs/2408.03475) | -                                                            | -                                                            | -     |
+| **Towards Time Series Reasoning with LLMs**          | [arXiv:2409.11376](https://arxiv.org/pdf/2409.11376) | -                                                            | -                                                            | -     |
 
 ## 📊 Datasets
 
 ### Public Datasets
 
-| Dataset          | Description                                                  | Size           | Domain  | Paper                                                        | Download                                                     |
-| ---------------- | ------------------------------------------------------------ | -------------- | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Chat-Time QA** | General time series QA dataset                               | 48K Q&A pairs  | General | [Paper](https://huggingface.co/datasets/ChengsenWang/TSQA)   | [HuggingFace](https://huggingface.co/datasets/ChengsenWang/TSQA) |
-| **SensorQA**     | Wearable device TS - Text question and answer pairs          | 5.6K Q&A pairs | Sensor  | [Paper](https://arxiv.org/pdf/2501.04974)                    | [SensorQA Dataset](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) |
-| **CALF**         | Multiple real-world datasets, including ETT (Electricity Transformer Temperature), Weather, ECL (Electricity Consuming Load), Traffic, and M4. |                | General | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/34082) | [CALF Dataset1](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)       [CALF Dataset2](https://drive.google.com/drive/folders/15zio96o3NK4XOoR5L88oaWcJDVOiqQo9) |
-| **TimeCMA**      | Eight diverse public datasets (ETTm1/2, ETTh1/2, ECL, FRED-MD, ILI, Weather) covering energy, economy, healthcare, and meteorology. |                | General | [Paper](https://arxiv.org/pdf/2406.01638)                    | [TimeCMA Dataset](https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2) |
-| **TEST**         | Multiple public time-series datasets, including the UCR Archive (128 univariate datasets), UEA Archive (30 multivariate datasets), and forecasting benchmarks like ETT, Weather, and Electricity, covering classification, prediction, and representation learning tasks. |                | General | [Paper](https://arxiv.org/pdf/2308.08241v2)                  | [The UCR archive](https://www.cs.ucr.edu/~eamonn/time_series_data_2018/) |
+| Dataset                 | Description                                                  | Size           | Domain                   | Paper                                                      | Download                                                     |
+| ----------------------- | ------------------------------------------------------------ | -------------- | ------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------ |
+| **EngineMT-QA Dataset** | The field of aero engines time series QA dataset             | 110K Q&A pairs | Aero Engine              | [Paper](https://openreview.net/forum?id=GByP03IitA)        | [Github](https://pandalin98.github.io/itformer_site/)        |
+| **Chat-Time QA**        | General time series QA dataset                               | 48K Q&A pairs  | General                  | [Paper](https://huggingface.co/datasets/ChengsenWang/TSQA) | [HuggingFace](https://huggingface.co/datasets/ChengsenWang/TSQA) |
+| **SensorQA**            | Wearable device TS - Text question and answer pairs          | 5.6K Q&A pairs | Sensor                   | [Paper](https://arxiv.org/pdf/2501.04974)                  | [Github](https://github.com/benjamin-reichman/SensorQA?tab=readme-ov-file) |
+| **Heartcare-220K**      | Time series QA dataset in the field of electrocardiogram signals | 220K Q&A pairs | Electrocardiogram signal | [Paper](https://arxiv.org/pdf/2506.05831)                  | [Github](https://arxiv.org/pdf/2506.05831)                   |
+| **TMLR Dataset**        | Three standard Table QA datasets: fact verification, question answering, and free-form generation | 8k Q&A pairs   | General                  | [Paper](https://arxiv.org/pdf/2412.12386)                  | [Github](https://github.com/giangnguyen2412/Plan-of-SQLs-TMLR2025/blob/main/data.zip) |
+| **Time-MQA**            | General time series QA dataset                               | 200k Q&A pairs | General                  | [Paper](https://arxiv.org/pdf/2503.01875)                  | [Hugging Face](https://huggingface.co/Time-QA)               |
+| **MTBench-Dateset**     | The field of finance and weather time series QA dataset      | -              | Finance & Weather        | [paper](https://arxiv.org/pdf/2503.16858)                  | [MTBench Dateset](https://github.com/Graph-and-Geometric-Learning/MTBench/tree/mainline/data_preparation) |
 
 ### Synthetic Datasets
 
-| Dataset | Description | Generator | Paper | Download |
-| ------- | ----------- | --------- | ----- | -------- |
-| -       | -           | -         | -     | -        |
+| Dataset             | Description                                                  | Generator | Paper                                                        | Download                                                     |
+| ------------------- | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **TS and Language** | Contains 87,000 pairs of time series and text descriptions covering 10 areas such as health care, finance, agriculture, transportation, entertainment, etc. | GPT-4     | [ACL 2024](https://aclanthology.org/2024.findings-emnlp.201.pdf) | [Github](https://github.com/behavioral-data/TSandLanguage/tree/main/data) |
 
 ## 💻 Code Implementations
 
 ### Official Implementations
 
-| Method                                                       | Paper                                                        | Code                                                         | Framework | License            |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | ------------------ |
-| **ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data** | [arxiv:2412.11376](https://arxiv.org/pdf/2412.11376)         | [GitHub](https://github.com/ForestsKing/ChatTime)            | Pytorch   | -                  |
-| **LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters** | [arxiv:2308.08469](https://arxiv.org/pdf/2308.08469)         | [Github](https://github.com/blacksnail789521/LLM4TS)         | Pytorch   | MIT                |
-| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | [arxiv:202503.16858](https://arxiv.org/pdf/2503.16858)       | [Github](https://arxiv.org/pdf/2503.16858)                   | Pytorch   | MIT                |
-| **SensorQA: A Question Answering Benchmark for Daily-Life Monitoring** | [arxiv:202501.04974](https://arxiv.org/pdf/2501.04974)       | [Github](https://github.com/benjamin-reichman/SensorQA)      | Pytorch   | CC BY-SA 4.0       |
-| **CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning** | [AAAI 2025](https://ojs.aaai.org/index.php/AAAI/article/view/34082) | [Github](https://github.com/Hank0626/CALF?tab=readme-ov-file) | Pytorch   | Apache License 2.0 |
-| **TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment** | [arXiv:202406.01638](https://arxiv.org/pdf/2406.01638)       | [Github](https://github.com/ChenxiLiu-HNU/TimeCMA)           | Pytorch   | S-Lab License 1.0  |
-| **TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series** | [ICLR 2024](https://arxiv.org/pdf/2308.08241v2)              | [Github](https://github.com/scxsunchenxi/test)               | Pytorch   | -                  |
+| Method                                                       | Paper                                                        | Code                                                         | Framework | License      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | ------------ |
+| **ITFormer: Bridging Time Series and Natural Language for Multi-Modal QA with Large-Scale Multitask Dataset** | [ICML 2025](https://openreview.net/forum?id=GByP03IitA)      | [Github](https://pandalin98.github.io/itformer_site/)        | Pytorch   | MIT          |
+| **ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data** | [arxiv:2412.11376](https://arxiv.org/pdf/2412.11376)         | [GitHub](https://github.com/ForestsKing/ChatTime)            | Pytorch   | -            |
+| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | [arxiv:202503.16858](https://arxiv.org/pdf/2503.16858)       | [Github](https://github.com/Graph-and-Geometric-Learning/MTBench) | Pytorch   | MIT          |
+| **SensorQA: A Question Answering Benchmark for Daily-Life Monitoring** | [arxiv:202501.04974](https://arxiv.org/pdf/2501.04974)       | [Github](https://github.com/benjamin-reichman/SensorQA)      | Pytorch   | CC BY-SA 4.0 |
+| **Heartcare Suite: Multi-dimensional Understanding of ECG with Raw Multi-lead Signal Modeling** | [arxiv:202506.05831](https://arxiv.org/pdf/2506.05831)       | [Github](https://arxiv.org/pdf/2506.05831)                   | Pytorch   | -            |
+| **Interpretable LLM-based Table Question Answering**         | [arXiv:2412.12386](https://arxiv.org/pdf/2412.12386)         | [Github](https://github.com/giangnguyen2412/Plan-of-SQLs-TMLR2025) | -         | MIT          |
+| **Language Models Still Struggle to Zero-shot Reason about Time Series** | [ACL 2024](https://aclanthology.org/2024.findings-emnlp.201.pdf) | [Github](https://github.com/behavioral-data/TSandLanguage)   | -         | MIT          |
+
+### Third-party Implementations
+
+| Method         | Original Paper                               | Implementation                                          | Framework | License      |
+| -------------- | -------------------------------------------- | ------------------------------------------------------- | --------- | ------------ |
+| **SensorChat** | [SensorQA](https://arxiv.org/pdf/2501.04974) | [Github](https://github.com/benjamin-reichman/SensorQA) | Pytoch    | CC BY-SA 4.0 |
 
 ### Benchmarking Tools
 
-| Tool                                                         | Description                      | Code                                                         | License            |
-| ------------------------------------------------------------ | -------------------------------- | ------------------------------------------------------------ | ------------------ |
-| **Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis** | Comprehensive benchmarking suite | [GitHub](https://github.com/AdityaLab/Time-MMD/)             | MIT                |
-| **CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning** | Comprehensive benchmarking suite | [Github](https://github.com/Hank0626/CALF?tab=readme-ov-file) | Apache License 2.0 |
-| **TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment** | Comprehensive benchmarking suite | [Github](https://github.com/ChenxiLiu-HNU/TimeCMA)           | S-Lab License 1.0  |
-| **TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series** | Comprehensive benchmarking suite | [Github](https://github.com/scxsunchenxi/test)               | -                  |
+| Tool                                                         | Description                                  | Code                                                         | License |
+| ------------------------------------------------------------ | -------------------------------------------- | ------------------------------------------------------------ | ------- |
+| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | Finance & Weather benchmarking suite         | [Github](https://github.com/Graph-and-Geometric-Learning/MTBench) | -       |
+| **Heartcare Suite: Multi-dimensional Understanding of ECG with Raw Multi-lead Signal Modeling** | Benchmarks in the field of electrocardiogram | [Github](https://arxiv.org/pdf/2506.05831)                   | -       |
+| **Interpretable LLM-based Table Question Answering**         | Comprehensive benchmarking suite             | [Github](https://github.com/giangnguyen2412/Plan-of-SQLs-TMLR2025) | -       |
 
 ## 🤖 Pre-trained Models
 
@@ -152,38 +134,25 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 ### Standard Benchmarks
 
-| Benchmark    | Metrics  | Datasets   | Leaderboard | Paper                                       |
-| ------------ | -------- | ---------- | ----------- | ------------------------------------------- |
-| **Time-MMD** | MSE      | 9 datasets | -           | [Paper](https://arxiv.org/abs/2406.08627)   |
-| **Time-CMA** | MSE\MAE  | 8 datasets | -           | [Paper](https://arxiv.org/pdf/2406.01638)   |
-| **TEST**     | sMAPE\ND | 5 datasets | -           | [Paper](https://arxiv.org/pdf/2308.08241v2) |
+| Benchmark        | Metrics                                | Datasets   | Leaderboard | Paper                                     |
+| ---------------- | -------------------------------------- | ---------- | ----------- | ----------------------------------------- |
+| **TMLR Dataset** | QA Accuracy\Interpretability\Agreement | 3 datasets | -           | [Paper](https://arxiv.org/pdf/2412.12386) |
 
 ### Domain-specific Benchmarks
 
-| Benchmark            | Domain  | Metrics                                  | Paper                              |
-| -------------------- | ------- | ---------------------------------------- | ---------------------------------- |
-| **FinTSQA-Bench(*)** | Finance | ROI Prediction Accuracy, Risk Assessment | [Paper](https://example.com/paper) |
-|                      |         |                                          |                                    |
+| Benchmark                                                    | Domain            | Metrics                | Paper                                     |
+| ------------------------------------------------------------ | ----------------- | ---------------------- | ----------------------------------------- |
+| **MTBench: A Multimodal Time Series Benchmark for Temporal Reasoning and Question Answering** | Finance & Weather | MAE & MSE & Acc        | [Paper](https://arxiv.org/pdf/2503.16858) |
+| **Heartcare Suite: Multi-dimensional Understanding of ECG with Raw Multi-lead Signal Modeling** | electrocardiogram | Acc & F1-Rad & Rouge-L | [Paper](https://arxiv.org/pdf/2506.05831) |
 
 ## 📖 Tutorials & Surveys
 
 ### Surveys
 
-| Title                                                        | Venue | Year | Link                                             |
-| ------------------------------------------------------------ | ----- | ---- | ------------------------------------------------ |
-| **How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook ** | arxiv | 2025 | [Paper](https://arxiv.org/abs/2503.11835)        |
-| **Large Language Models for Time Series: A Survey**          | arxiv | 2024 | [Paper](https://arxiv.org/pdf/2402.01801)        |
-| **Foundation Models for Time Series Analysis: A Tutorial and Survey** | ACM   | 2024 | [Paper](https://doi.org/10.1145/3637528.3671451) |
-
-### Tutorials
-
-| Title                                                        | Venue         | Year | Materials                                         |
-| ------------------------------------------------------------ | ------------- | ---- | ------------------------------------------------- |
-| **Building Time Series QA Systems**                          | AAAI Tutorial | 2024 | [Slides](https://example.com/tutorial-slides)     |
-| **Deep Learning for Temporal Question Answering**            | ICML Tutorial | 2023 | [Notebook](https://example.com/tutorial-notebook) |
-| **Foundation Models for Time Series Analysis: A Tutorial and Survey** | ACM Tutorial  | 2024 | [Paper](https://doi.org/10.1145/3637528.3671451)  |
-
-### 
+| Title                                                        | Venue | Year | Link                                              |
+| ------------------------------------------------------------ | ----- | ---- | ------------------------------------------------- |
+| **How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook** | arxiv | 2025 | [Paper](https://arxiv.org/abs/2503.11835)         |
+| **Position: What Can Large Language Models Tell Us about Time Series Analysis** | ICML  | 2024 | [Paper](https://openreview.net/pdf?id=iroZNDxFJZ) |
 
 ## 🎯 Research Directions
 
