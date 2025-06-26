@@ -40,7 +40,7 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 
 | Paper                                                        | Venue                                                   | Code                                                  | Dataset                                                      | Model |
 | ------------------------------------------------------------ | ------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ | ----- |
-| **ITFormer: Bridging Time Series and Natural Language for Multi-Modal QA with Large-Scale Multitask Dataset** | [ICML 2025](https://openreview.net/forum?id=GByP03IitA) | [Github](https://pandalin98.github.io/itformer_site/) | [EngineMT-QA Dataset](https://pandalin98.github.io/itformer_site/) | -     |
+| **ITFormer: Bridging Time Series and Natural Language for Multi-Modal QA with Large-Scale Multitask Dataset** | [ICML 2025](http://arxiv.org/abs/2506.20093) | [Github](https://pandalin98.github.io/itformer_site/) | [EngineMT-QA Dataset](https://pandalin98.github.io/itformer_site/) | -     |
 | **ChatTime: A Unified Multimodal Time Series Foundation Model Bridging Numerical and Textual Data** | [AAAI 2025](https://arxiv.org/pdf/2412.11376)           | [GitHub](https://github.com/ForestsKing/ChatTime)     | [ChatTime Dataset](https://github.com/ForestsKing/ChatTime/tree/main/dataset) | -     |
 
 ### Preprints
