@@ -154,6 +154,9 @@ Time Series Question Answering (TSQA) is an emerging field that combines time se
 | ------------------------------------------------------------ | ----- | ---- | ------------------------------------------------- |
 | **How Can Time Series Analysis Benefit From Multiple Modalities? A Survey and Outlook** | arxiv | 2025 | [Paper](https://arxiv.org/abs/2503.11835)         |
 | **Position: What Can Large Language Models Tell Us about Time Series Analysis** | ICML  | 2024 | [Paper](https://openreview.net/pdf?id=iroZNDxFJZ) |
+| **Empowering Time Series Analysis with Large Language Models: A Survey** | IJCAI | 2024 | [Paper](https://www.ijcai.org/proceedings/2024/0895.pdf) |
+| **Large Language Models for Time Series: A Survey** | IJCAI | 2024 | [Paper](https://www.ijcai.org/proceedings/2024/0921.pdf) |
+
 
 ## 🎯 Research Directions
 
